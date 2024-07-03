@@ -1,0 +1,37 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+    content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+    'node_modules/flowbite-react/lib/esm/**/*.js',
+    
+
+  ],
+  theme: {
+    extend: {
+      colors: {
+        // primary: "#00c3c7",
+        primary: "#00224D",
+        secondary: "#8576FF",
+        dark: "#ffcf22",
+      },
+      height:{
+        '112' : '40rem',
+        '128' : '32rem',
+      },
+      container: {
+        center: true,
+        padding: {
+          DEFAULT: "1rem",
+          sm: "2rem",
+          lg: "4rem",
+          xl: "5rem",
+          "2xl": "6rem",
+        },
+      },
+    },
+  },
+  plugins: [
+    require('flowbite/plugin')
+]
+}
+
