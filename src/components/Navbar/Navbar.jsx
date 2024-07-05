@@ -15,10 +15,6 @@ export const NavbarLinks = [
     name: "Packages",
     link: "/list",
   },
-  {
-    name: "About",
-    link: "/details",
-  },
   // {
   //   name: "Best Places",
   //   link: "/best-places",
